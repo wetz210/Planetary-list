@@ -1,0 +1,463 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.Stars {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+}
+
+.txt{
+	font-size: 15px;
+}
+
+/*Solar System*/
+
+.Solar-System {
+	padding-bottom: 0px;
+	float:left;
+	clear:none; 
+	height: 380px;
+	margin-bottom: 40px;
+	width: 100%;
+}
+
+.Solar-img {
+	height: auto;
+    object-fit: contain;
+	float: right;
+	padding-left: 20px;
+	height: 380px;
+}
+
+h1{
+	margin-top: 0;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	padding-bottom: 50px;
+	font-family: 'Cookie', cursive;
+	font-size: 100px;
+}
+
+.solar-text-one{
+	padding-top: 50px;
+}
+
+.solar-text{
+	margin-left: 20px;
+	margin-right: 20px;;
+	padding-bottom: 40px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+}
+
+
+/*Sun*/
+
+
+.sun-filler {
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #FF8C00;
+	font-size: 100px;
+	margin-bottom: 40px;
+}
+
+.Sun-img{
+	height: 400px;
+    object-fit: contain;
+	float: left;
+	padding-right: 20px;
+}
+
+.Sun {
+	background-color: #FF8C00;
+	float:left;
+	clear:none;
+	height: 400px;
+	width: 100%; 
+}
+
+.sun-text-one{
+	color: red;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.sun-text{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 40px;
+}
+
+
+/*Mercury*/
+
+
+.mercury-filler {
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #A9A9A9;
+	font-size: 100px;
+	margin-bottom: 40px;
+}
+
+.Mercury {
+	background-color: #A9A9A9;
+	float:left;
+	clear:none;
+	height: 400px;
+	width: 100%; 
+}
+
+.Mercury-img{
+	height: 400px;
+    object-fit: contain;
+	float: right;
+	padding-left: 20px;
+}
+
+
+.mercury-text-one{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 50px;
+	font-weight: bolder;
+}
+
+.mercury-text{
+	margin-left: 20px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 40px;
+}
+
+
+/*Venus*/
+
+
+.venus-filler {
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #FAEBD7;
+	font-size: 100px;
+	margin-bottom: 40px;
+}
+
+.Venus {
+	background-color: #FAEBD7;
+	float:right;
+	clear:none;
+	height: 400px;
+	width: 100%; 
+}
+
+.Venus-img{
+	height: 400px;
+    object-fit: contain;
+	float: left;
+	padding-right: 20px;
+}
+
+
+.venus-text-one{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 50px;
+	font-weight: bolder;
+}
+
+.venus-text{
+	margin-left: 20px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 40px;
+}
+
+
+/*Earth*/
+
+.earth-filler {
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #008B8B;
+	font-size: 100px;
+	margin-bottom: 40px;
+}
+
+.Earth {
+	width: 100%;
+	background-color: #008B8B;
+	float:left;
+	clear:none;
+	height: 400px; 
+}
+
+.Earth-img{
+	height: 400px;
+    object-fit: contain;
+	float: right;
+	padding-left: 20px;
+}
+
+
+.earth-text-one{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding: 180px 0px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+
+/*Mars*/
+
+
+.mars-filler {
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #F4A460;
+	font-size: 100px;
+	margin-bottom: 40px;
+}
+
+.Mars {
+	background-color: #F4A460;
+	float:right;
+	clear:none;
+	height: 400px;
+	width: 100%; 
+}
+
+.Mars-img{
+	height: 400px;
+    object-fit: contain;
+	float: left;
+	padding-right: 20px;
+}
+
+
+.mars-text-one{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 50px;
+	font-weight: bolder;
+}
+
+.mars-text{
+	margin-left: 20px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 40px;
+}
+
+/*Jupiter*/
+
+.jupiter-filler {
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #FFDEAD;
+	font-size: 100px;
+	margin-bottom: 40px;
+}
+
+.Jupiter {
+	width: 100%;
+	background-color: #FFDEAD;
+	float:left;
+	clear:none;
+	height: 400px; 
+}
+
+.Jupiter-img{
+	height: 400px;
+    object-fit: contain;
+	float: right;
+	padding-left: 20px;
+}
+
+
+.jupiter-text-one{
+	color: 	black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding: 30px 0px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.jupiter-text{
+	margin-left: 20px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 40px;
+}
+
+
+/*Saturn*/
+
+.saturn-filler {
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #F0E68C;
+	font-size: 100px;
+	margin-bottom: 40px;
+}
+
+.Saturn {
+	width: 100%;
+	background-color: #F0E68C;
+	float:left;
+	clear:none;
+	height: 400px; 
+}
+
+.Saturn-img{
+	height: 400px;
+    object-fit: contain;
+	float: left;
+	padding-right: 20px;
+}
+
+
+.saturn-text-one{
+	color: 	black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding: 30px 0px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.saturn-text{
+	margin-left: 20px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 40px;
+}
+
+
+/*Uranus*/
+
+.uranus-filler {
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #ADD8E6;
+	font-size: 100px;
+	margin-bottom: 40px;
+}
+
+.Uranus {
+	width: 100%;
+	background-color: #ADD8E6;
+	float:left;
+	clear:none;
+	height: 400px; 
+}
+
+.Uranus-img{
+	height: 400px;
+    object-fit: contain;
+	float: right;
+	padding-left: 20px;
+}
+
+
+.uranus-text-one{
+	color: 	black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding: 30px 0px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.uranus-text{
+	margin-left: 20px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 40px;
+}
+
+
+
+/*Neptune*/
+
+.neptune-filler {
+	text-align: center;
+	font-family: 'Cookie', cursive;
+	color: #4682B4;
+	font-size: 100px;
+	margin-bottom: 40px;
+}
+
+.Neptune {
+	width: 100%;
+	background-color: #4682B4;
+	float:left;
+	clear:none;
+	height: 400px; 
+}
+
+.Neptune-img{
+	height: 400px;
+    object-fit: contain;
+	float: left;
+	padding-right: 20px;
+}
+
+
+.neptune-text-one{
+	color: 	black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding: 30px 0px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.neptune-text{
+	margin-left: 20px;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 40px;
+}
+
+.endnote {
+	padding-top: 50px;
+	font-family: 'Cookie', cursive;
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+}
